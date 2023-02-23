@@ -62,3 +62,68 @@ h1{
     color: aliceblue;
     font-size: 80px;
 }
+
+p{
+    color: aliceblue;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: blueviolet;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover{
+    background: plum;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(./CodeAlongImages/TheWitch.jpeg);
+}
+
+.card2{
+    background-image: url(./CodeAlongImages/Signs.jpg);
+}
+
+.card3{
+    background-image: url(./CodeAlongImages/Highlander.jpeg);
+}
+
+.card4{
+    background-image: url(./CodeAlongImages/castleinthesky.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(41, 55, 62);
+}
+
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
